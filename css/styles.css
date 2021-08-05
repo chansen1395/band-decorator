@@ -2,14 +2,58 @@
   width: 300px;
   float: right;
   background-color: yellow;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-left: 20px; 
+  margin-right: 50px;
 }
 
-.column {
+.column_1 {
   width: 300px;
   float: left;
+  background-color: aquamarine;
+}
+.column_2 {
+  width: 300px;
+  float: left;
+  background-color: rgb(91, 121, 111);
+}
+.column_3 {
+  width: 300px;
+  float: left;
+  background-color: rgb(16, 104, 74);
 }
 
 .renovpic {
   width: 300px;
   height: fit-content;
+}
+
+.box1 {
+  width: 50%;
+  border: solid rgb(170, 88, 88);
+  border-width: 1px;
+  background-color: rgb(119, 192, 97);
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.box2 {
+  width: 50%;
+  padding: 20px;
+  border: solid rgb(78, 12, 12);
+  border-width: 20px;
+  background-color: rgb(221, 188, 128);
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.box3 {
+  width: 50%;
+  padding: 50px;
+  border: solid rgb(56, 65, 117);
+  border-width: 30px;
+  background-color: rgb(206, 138, 186);
+  margin-bottom: 10px;
+  box-sizing: border-box;
 }
